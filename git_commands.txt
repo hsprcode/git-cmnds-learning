@@ -19,3 +19,8 @@ git checkout <one of existing branch>	|	go to that branch mentioned
 
 git merge <branch name>					|	merge the given branch name to the current branch
 git branch -d <branch name>				|	deletes the branch
+
+git show <commitHash>:/path/to/file		|	show the commited changes using the hash
+
+git remote add origin https://github.com/hsprcode/git-cmnds-learning.git
+git push -u origin master				|	push an existing repository from the command line
