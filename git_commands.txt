@@ -1,4 +1,4 @@
-git onit
+git init
 git status
 git add <file_name.txt>					|	adds all tracked files to the staging area
 
