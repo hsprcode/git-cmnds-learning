@@ -1,14 +1,20 @@
 git init
 git status
-git add <file_name.txt>
+git add <file_name.txt>					|	adds all tracked files to the staging area
 
 git config user.name "harishankar"
 git config user.email "harishankar003@gmail.com"
 
-git commit -m "first comit, learning git"
+git commit -m "comment or message"
+git commit -a -m "message"				|	adds all tracked files to the staging area and commits them in one step
 
 git log
 git log -p -2							|	display patches changed in the past
+git log --pretty=oneline --graph
+
 git checkout -b <my branch name>		|	command will automatically create a new branch and then git will move you to that branch, off of the master branch
 git branch								|	see all the branches, and the one you are in
 git checkout <one of existing branch>	|	go to that branch mentioned
+
+git merge <branch name>					|	merge the given branch name to the current branch
+git branch - <branch name>				|	deletes the branch
