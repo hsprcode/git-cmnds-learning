@@ -11,3 +11,4 @@ git log
 git log -p -2							|	display patches changed in the past
 git checkout -b <my branch name>		|	command will automatically create a new branch and then git will move you to that branch, off of the master branch
 git branch								|	see all the branches, and the one you are in
+git checkout <one of existing branch>	|	go to that branch mentioned
