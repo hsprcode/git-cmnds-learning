@@ -10,6 +10,7 @@ git commit -a -m "message"				|	adds all tracked files to the staging area and c
 
 git log
 git log -p -2							|	display patches changed in the past
+git log --stat							|	to see some abbreviated stats for each commit
 git log --pretty=oneline --graph
 
 git checkout -b <my branch name>		|	command will automatically create a new branch and then git will move you to that branch, off of the master branch
