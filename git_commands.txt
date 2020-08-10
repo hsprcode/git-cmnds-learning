@@ -18,4 +18,4 @@ git branch								|	see all the branches, and the one you are in
 git checkout <one of existing branch>	|	go to that branch mentioned
 
 git merge <branch name>					|	merge the given branch name to the current branch
-git branch -d <branch name>				|	deletes the branch
+git branch -e <branch name>				|	deletes the branch
