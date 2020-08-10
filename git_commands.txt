@@ -2,8 +2,8 @@ git init
 git status
 git add <file_name.txt>					|	adds all tracked files to the staging area
 
-git config user.name "harishankar"
-git config user.email "harishankar003@gmail.com"
+git config user.name "<user_name>"
+git config user.email "email@gmail.com"
 
 git commit -m "comment or message"
 git commit -a -m "message"				|	adds all tracked files to the staging area and commits them in one step
