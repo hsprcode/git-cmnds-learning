@@ -8,4 +8,5 @@ git config user.email "harishankar003@gmail.com"
 git commit -m "first comit, learning git"
 
 git log
+git log -p -2							|	display patches changed in the past
 
