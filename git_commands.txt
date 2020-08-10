@@ -24,3 +24,6 @@ git show <commitHash>:/path/to/file		|	show the commited changes using the hash
 
 git remote add origin https://github.com/hsprcode/git-cmnds-learning.git
 git push -u origin master				|	push an existing repository from the command line
+
+git push origin <branch_name>			|	pushing a branch to github repository from alias origin
+git pull origin <branch_name>			|	pull a branch from github repository 
